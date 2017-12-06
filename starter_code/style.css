@@ -5,6 +5,15 @@
 	http://www.w3schools.com/cssref/css3_pr_box-sizing.asp */
 }
 
+body { 
+	font-family: 'Proza Libre', sans-serif;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
 /* 
 	Use Google Fonts to make all of the text Proza Libre.
 
@@ -12,6 +21,16 @@
 */
 
 /*-------- Main Styles --------*/
+
+#main {
+	width: 100%;
+	
+}
+
+.form .containerResults {
+ float: left;	
+ display: inline;
+}
 
 /* 
 	Make the main container the full width of the page.
